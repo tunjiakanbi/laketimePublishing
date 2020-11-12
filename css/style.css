@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  background-color: green;
+}
+
+.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
+  background-color: green;
+}
+
+#content-wrapper {
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */
