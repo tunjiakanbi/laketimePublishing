@@ -6,7 +6,42 @@
   background-color: green;
 }
 
+body {
+  position: relative;
+}
+
 #content-wrapper {
   padding: 0;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+div.main-content-divs {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 76px;
+}
+
+nav {
+  height: 76px;
+}
+
+div#main-content1 {
+  background-color: yellow;
+}
+
+div#main-content2 {
+  background-color: #ff3700;
+}
+
+div#main-content3 {
+  background-color: #37ff00;
+}
+
+div#main-content4 {
+  background-color: #d719ae;
 }
 /*# sourceMappingURL=style.css.map */
